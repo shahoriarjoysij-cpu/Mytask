@@ -9,7 +9,7 @@ nav{
 }
 ul{
     display: flex;
-    gap:10px;
+    gap:20px;
     list-style: none;
     font-family: "Arimo", sans-serif;
     color: #575757;
@@ -26,6 +26,11 @@ button{
 
 }
 
-h1{
-    
+section{ 
+    padding:30px;
+    text-align: center;
+    color:aliceblue;
+    background-image: url(./B14-A01-DevConf-2026/assets/banner.jpg);
+    height: 786px;
+    width:1552px;
 }
