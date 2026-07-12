@@ -1,0 +1,31 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1300px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+ul{
+    display: flex;
+    gap:10px;
+    list-style: none;
+    font-family: "Arimo", sans-serif;
+    color: #575757;
+}
+button{
+    background-color:#1D4ED8;
+    color: #FFFFFF;
+     font-family: "Inter", sans-serif;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    text-align:center;
+
+}
+
+h1{
+    
+}
