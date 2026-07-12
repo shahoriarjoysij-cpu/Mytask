@@ -30,7 +30,9 @@ section{
     padding:30px;
     text-align: center;
     color:aliceblue;
-    background-image: url(./B14-A01-DevConf-2026/assets/banner.jpg);
+    background-image:
+    linear-gradient(rgba (0,0,0,0.6),rgba(0,0,0,0.6)) 
+    url(./B14-A01-DevConf-2026/assets/banner.jpg);
     height: 786px;
     width:1552px;
 }
