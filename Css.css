@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:"Inter", sans-serif;
 }
 nav{
     display:flex;
@@ -31,10 +32,10 @@ button{
 
 }
 
-section{ 
+.hero{ 
     background-image:url(./B14-A01-DevConf-2026/assets/banner.jpg);
     height: 600px;
-    width:1560px;
+    /* width:1560px; */
     background-repeat: no repeat;
     background-position: center;
     background-size: cover;
@@ -46,20 +47,20 @@ h1{
     font-size:60px ;
     text-align: center;
     font-family: "Inter", sans-serif;
-    padding:50px; 
-    word-spacing: 10px;
+    padding-top:50px; 
 }
 span{
     font-style: italic;
-
 }
-p{
-    color: white;
+.herop{
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
     text-align: center;
     max-width: 500px;
-    margin: 0 auto;
-    border: solid #FFFFFF;
-    margin:11px auto;
+    /* margin: 0 auto; */
+    /* border: solid #FFFFFF; */
+    margin:50px auto;
 }
 .herob{
     background-color:#1D4ED8;
@@ -70,6 +71,58 @@ p{
     border: none;
     border-radius: 5px;
     text-align:center;
-    margin: 100px auto;
-    border: solid #FFFFFF
+    margin: 250px auto;
+    /* border: solid #FFFFFF */
+}
+.cardss{
+    /* display: flex; its not working thats why io will use grid */
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    /* border: 5px solid black;  i use them to understand the area */
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap:25px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 3px solid blue; i use them to understand the area*/
+    text-align: center;
+    padding: 20px;
+    font-family:"Inter", sans-serif; 
+    font-size: 40px;
+}
+.card{
+    align-items: center;
+     width: 400px;
+     margin-bottom: 20px;
+    /* height: 320px; */
+    /* padding: 30px; */
+    /* border: 10px solid green; */
+    
+}
+.imggg{
+width: 100%;
+height: 220px;
+object-fit: cover;
+display: block;
+border: .5px solid #575757;
+
+}
+.cardp{
+    margin-top: 10px;
+    color:#2563EB;
+    font-family:"Inter", sans-serif; 
+    font-size:11px;
+}
+.cardpp{
+   font-family:"Inter", sans-serif; 
+   color:#575757;
+   font-size: 10px;
 }
