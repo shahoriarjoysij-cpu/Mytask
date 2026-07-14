@@ -13,14 +13,14 @@ nav{
     margin: 0 auto; 
 
 }
-ul{
+nav ul{
     display: flex;
     gap:20px;
     list-style: none;
     font-family: "Arimo", sans-serif;
     color: #575757;
 }
-button{
+.button{
     background-color:#1D4ED8;
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
@@ -28,21 +28,27 @@ button{
     width: 150px;
     border: none;
     border-radius: 5px;
-    
-
 }
 
 .hero{ 
     background-image:url(./B14-A01-DevConf-2026/assets/banner.jpg);
     height: 600px;
-    /* width:1560px; */
     background-repeat: no repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
     text-align: center;
 }
-h1{
+.heroh1{
+    color: white;
+    margin-top: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding:52px ;
+    font-size:50px;
+
+}
+ nav h1{
     color: #FFFFFF;
     font-size:60px ;
     text-align: center;
@@ -52,15 +58,15 @@ h1{
 span{
     font-style: italic;
 }
-.herop{
+.heropara{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
     font-size: 10px;
     text-align: center;
     max-width: 500px;
-    /* margin: 0 auto; */
-    /* border: solid #FFFFFF; */
+    /* border: solid #FFFFFF;  */
     margin:50px auto;
+    margin-top:-40px;
 }
 .herob{
     background-color:#1D4ED8;
@@ -72,7 +78,6 @@ span{
     border-radius: 5px;
     text-align:center;
     margin: 250px auto;
-    /* border: solid #FFFFFF */
 }
 .cardss{
     /* display: flex; its not working thats why io will use grid */
@@ -98,13 +103,13 @@ h2{
     font-family:"Inter", sans-serif; 
     font-size: 40px;
 }
-.card{
+.card
+{
     align-items: center;
      width: 400px;
      margin-bottom: 20px;
-    /* height: 320px; */
-    /* padding: 30px; */
-    /* border: 10px solid green; */
+     border-radius: 8px;
+     box-shadow:.5px .5px .5px  #E5E7EB;
     
 }
 .imggg{
@@ -112,9 +117,9 @@ width: 100%;
 height: 220px;
 object-fit: cover;
 display: block;
-border: .5px solid #575757;
-
+border-radius: 8px;
 }
+
 .cardp{
     margin-top: 10px;
     color:#2563EB;
@@ -125,4 +130,330 @@ border: .5px solid #575757;
    font-family:"Inter", sans-serif; 
    color:#575757;
    font-size: 10px;
+}
+.pricing{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+ .pricing-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap:25px;
+ }
+ .pricing-text{
+    text-align: center;
+    color: #575757;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.pricingh1{
+    color:#888888;
+    font-size: 11.5px;
+    font-weight:500;
+}
+.pricingh2{
+    color:#2563EB;
+    font-size: 11.5px;
+    font-weight: 500;
+}
+.pricingul1{
+    margin-top: 8px;
+    font-size: 10px;
+    color: #333333;
+ }
+.pricingul2{
+    color:white;
+    font-size:10px;
+    margin-top:8px;
+}
+
+h4{
+    font-size:48px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:10px;
+}
+.pricingvalue1{
+font-size:32px; 
+font-weight:bold;
+}
+.pricingvalue2{
+font-size:32px; 
+font-weight:bold;
+color: #FFFFFF;
+}
+.pricingp1{
+    font-size: 11px;
+    color: #575757;
+}
+.pricingp2{
+    font-size: 11px;
+    color:#FFFFFF;
+}
+
+/* .primium{
+    background-color: #0D1B2A;
+    color: white;
+} */
+.spotcard1{
+     border:solid #E5E7EB;
+     width:250px;
+     height:300px;
+        padding: 20px;
+    box-sizing: border-box;
+     display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 8px #E5E7EB;
+}
+.spotcard2{
+    background:#0D1B2A;
+ color:white;
+  border:1px solid #E5E7EB;
+    border-radius:10px;
+    box-shadow:0px 2px 8px #E5E7EB;
+width:250px;
+height:300px;
+    padding:20px;
+  box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+}
+.spotcard3{
+    border:solid #E5E7EB;
+     width:250px;
+    height:300px;
+       padding: 20px;
+    box-sizing: border-box;
+     display: flex;
+     box-shadow: 0px 2px 8px #E5E7EB;
+    flex-direction: column;
+}
+.pricingbut1{
+     margin-top: auto;
+    font-size: 10px;
+  margin-left: 5px;
+  background-color:white;
+  color: #2563EB ;
+  width: 200px;
+  height: 40px;
+  border:solid #2563EB;
+  border-radius: 8px;
+  border-width: 1px;
+    margin-top:auto;
+
+}
+.pricingbut2{
+    font-size: 10px;
+    background-color: #2563EB;
+  margin-left: 20px;
+  color: whitesmoke;
+  width: 200px;
+  height: 40px;
+    margin-top: auto;
+  margin-left: 5px;
+   border-radius: 8px;
+  border-width: 1px;
+  border: none;
+  margin-top:auto;
+}
+/* ===========================
+   Innovation Experience Zone
+=========================== */
+
+.innovation-zone{
+    max-width:1200px;
+    margin:120px auto;
+    padding:0 20px;
+}
+
+.innovation-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.innovation-subtitle{
+    color:#2563EB;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:3px;
+    margin-bottom:12px;
+}
+
+.innovation-header h2{
+    font-size:46px;
+    margin-bottom:18px;
+}
+
+.innovation-description{
+    max-width:700px;
+    margin:auto;
+    color:#575757;
+    line-height:1.8;
+    font-size:16px;
+}
+
+.innovation-wrapper{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+/* ===========================
+   Innovation Card
+=========================== */
+
+.innovation-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:30px;
+    border-radius:18px;
+    color:white;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+.innovation-item:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+
+.innovation-icon{
+    width:90px;
+    height:90px;
+    border-radius:20px;
+    background:rgba(255,255,255,.18);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:42px;
+    flex-shrink:0;
+}
+
+.innovation-content{
+    flex:1;
+    margin:0 30px;
+}
+
+.innovation-content h3{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.innovation-content p{
+    line-height:1.8;
+    margin-bottom:18px;
+    font-size:15px;
+}
+/* ===========================
+   Tags
+=========================== */
+
+.innovation-tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.innovation-tags span{
+    background:rgba(255,255,255,.20);
+    padding:8px 16px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.innovation-tags span:hover{
+    background:white;
+    color:#2563EB;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.innovation-action{
+    flex-shrink:0;
+}
+
+.innovation-action button{
+    background:white;
+    color:#111827;
+    border:none;
+    padding:15px 30px;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.innovation-action button:hover{
+    background:#111827;
+    color:white;
+}
+
+/* ===========================
+   Card Colors
+=========================== */
+
+.ai{
+    background:linear-gradient(135deg,#2563EB,#06B6D4);
+}
+
+.cloud{
+    background:linear-gradient(135deg,#7C3AED,#3B82F6);
+}
+
+.security{
+    background:linear-gradient(135deg,#EF4444,#F97316);
+}
+
+.startup{
+    background:linear-gradient(135deg,#10B981,#14B8A6);
+}
+
+/* ===========================
+   Stats
+=========================== */
+
+.innovation-footer{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    margin-top:60px;
+}
+
+.innovation-stat{
+    background:white;
+    border:1px solid #E5E7EB;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.innovation-stat:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(37,99,235,.18);
+}
+
+.innovation-stat h3{
+    font-size:38px;
+    color:#2563EB;
+    margin-bottom:10px;
+}
+
+.innovation-stat p{
+    color:#575757;
+    font-size:15px;
 }
