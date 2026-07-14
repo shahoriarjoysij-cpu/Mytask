@@ -457,3 +457,67 @@ height:300px;
     color:#575757;
     font-size:15px;
 }
+
+
+.foot{
+    background:#0D1B2A;
+    padding:20px 0 8px;
+    margin-top:60px;
+}
+
+.footcon{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.footlogo{
+    width:60px;
+    height:auto;
+    display:block;
+    margin-bottom:8px;
+}
+
+.footleft p{
+    color:#D1D5DB;
+    font-size:13px;
+    line-height:1.5;
+    margin-bottom:12px;
+    max-width:380px;
+}
+
+.logoss{
+    display:flex;
+    gap:12px;
+}
+
+.logoss img{
+    width:28px;
+    height:28px;
+}
+
+.foot hr{
+    max-width:1200px;
+    margin:15px auto 10px;
+    border:none;
+    border-top:1px solid #374151;
+}
+
+.footbot{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footbot p{
+    color:#9CA3AF;
+    font-size:12px;
+}
+
+.footpol{
+    display:flex;
+    gap:15px;
+}
